@@ -10,7 +10,6 @@ import SwiftUI
 
 class ContentViewModel: ObservableObject {
     private var repeatViewTimer: DispatchSourceTimer? = nil
-    private var willStart: Bool = false
     @Published var list: [String?] = []
     
     func start() {
